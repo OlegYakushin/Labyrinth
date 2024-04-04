@@ -11,6 +11,18 @@
 		8B4DB18F2BBEC79200CC027E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DB18E2BBEC79200CC027E /* ContentView.swift */; };
 		8B4DB1912BBEC79400CC027E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DB1902BBEC79400CC027E /* Assets.xcassets */; };
 		8B4DB1942BBEC79400CC027E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DB1932BBEC79400CC027E /* Preview Assets.xcassets */; };
+		8B4DB19B2BBEC7B800CC027E /* FunctionForResize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DB19A2BBEC7B800CC027E /* FunctionForResize.swift */; };
+		8B4DB19D2BBEC7D500CC027E /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DB19C2BBEC7D500CC027E /* BackgroundView.swift */; };
+		8B4DB19F2BBEC9F200CC027E /* GameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DB19E2BBEC9F200CC027E /* GameManager.swift */; };
+		8B4DB1A12BBECA0300CC027E /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DB1A02BBECA0300CC027E /* GameScene.swift */; };
+		8B4DB1A32BBECA2100CC027E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DB1A22BBECA2100CC027E /* MainView.swift */; };
+		8B4DB1A92BBECAEC00CC027E /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DB1A52BBECAEB00CC027E /* Inter-Bold.ttf */; };
+		8B4DB1AA2BBECAEC00CC027E /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DB1A62BBECAEB00CC027E /* Inter-Regular.ttf */; };
+		8B4DB1AB2BBECAEC00CC027E /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DB1A72BBECAEB00CC027E /* Inter-Medium.ttf */; };
+		8B4DB1AC2BBECAEC00CC027E /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DB1A82BBECAEC00CC027E /* Inter-ExtraBold.ttf */; };
+		8B4DB1AF2BBECBCE00CC027E /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8B4DB1AE2BBECBCE00CC027E /* Inter-SemiBold.ttf */; };
+		8B4DB1B12BBECD8700CC027E /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DB1B02BBECD8700CC027E /* GameView.swift */; };
+		8B4DB1B32BBECDBE00CC027E /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B4DB1B22BBECDBE00CC027E /* ProfileView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +31,19 @@
 		8B4DB18E2BBEC79200CC027E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		8B4DB1902BBEC79400CC027E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8B4DB1932BBEC79400CC027E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8B4DB19A2BBEC7B800CC027E /* FunctionForResize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionForResize.swift; sourceTree = "<group>"; };
+		8B4DB19C2BBEC7D500CC027E /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		8B4DB19E2BBEC9F200CC027E /* GameManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameManager.swift; sourceTree = "<group>"; };
+		8B4DB1A02BBECA0300CC027E /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		8B4DB1A22BBECA2100CC027E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8B4DB1A52BBECAEB00CC027E /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		8B4DB1A62BBECAEB00CC027E /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		8B4DB1A72BBECAEB00CC027E /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		8B4DB1A82BBECAEC00CC027E /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8B4DB1AD2BBECB4900CC027E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		8B4DB1AE2BBECBCE00CC027E /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		8B4DB1B02BBECD8700CC027E /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		8B4DB1B22BBECDBE00CC027E /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +76,17 @@
 		8B4DB18B2BBEC79200CC027E /* Labyrinth */ = {
 			isa = PBXGroup;
 			children = (
+				8B4DB1AD2BBECB4900CC027E /* Info.plist */,
 				8B4DB18C2BBEC79200CC027E /* LabyrinthApp.swift */,
 				8B4DB18E2BBEC79200CC027E /* ContentView.swift */,
+				8B4DB19C2BBEC7D500CC027E /* BackgroundView.swift */,
+				8B4DB19E2BBEC9F200CC027E /* GameManager.swift */,
+				8B4DB1A02BBECA0300CC027E /* GameScene.swift */,
+				8B4DB1A22BBECA2100CC027E /* MainView.swift */,
+				8B4DB1B22BBECDBE00CC027E /* ProfileView.swift */,
+				8B4DB1B02BBECD8700CC027E /* GameView.swift */,
+				8B4DB1A42BBECAB500CC027E /* Fonts */,
+				8B4DB19A2BBEC7B800CC027E /* FunctionForResize.swift */,
 				8B4DB1902BBEC79400CC027E /* Assets.xcassets */,
 				8B4DB1922BBEC79400CC027E /* Preview Content */,
 			);
@@ -65,6 +99,18 @@
 				8B4DB1932BBEC79400CC027E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8B4DB1A42BBECAB500CC027E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				8B4DB1A52BBECAEB00CC027E /* Inter-Bold.ttf */,
+				8B4DB1A82BBECAEC00CC027E /* Inter-ExtraBold.ttf */,
+				8B4DB1A72BBECAEB00CC027E /* Inter-Medium.ttf */,
+				8B4DB1AE2BBECBCE00CC027E /* Inter-SemiBold.ttf */,
+				8B4DB1A62BBECAEB00CC027E /* Inter-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +171,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4DB1A92BBECAEC00CC027E /* Inter-Bold.ttf in Resources */,
 				8B4DB1942BBEC79400CC027E /* Preview Assets.xcassets in Resources */,
+				8B4DB1AA2BBECAEC00CC027E /* Inter-Regular.ttf in Resources */,
+				8B4DB1AB2BBECAEC00CC027E /* Inter-Medium.ttf in Resources */,
 				8B4DB1912BBEC79400CC027E /* Assets.xcassets in Resources */,
+				8B4DB1AC2BBECAEC00CC027E /* Inter-ExtraBold.ttf in Resources */,
+				8B4DB1AF2BBECBCE00CC027E /* Inter-SemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +188,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B4DB1A12BBECA0300CC027E /* GameScene.swift in Sources */,
+				8B4DB1B32BBECDBE00CC027E /* ProfileView.swift in Sources */,
+				8B4DB1A32BBECA2100CC027E /* MainView.swift in Sources */,
 				8B4DB18F2BBEC79200CC027E /* ContentView.swift in Sources */,
+				8B4DB19B2BBEC7B800CC027E /* FunctionForResize.swift in Sources */,
+				8B4DB19D2BBEC7D500CC027E /* BackgroundView.swift in Sources */,
 				8B4DB18D2BBEC79200CC027E /* LabyrinthApp.swift in Sources */,
+				8B4DB1B12BBECD8700CC027E /* GameView.swift in Sources */,
+				8B4DB19F2BBEC9F200CC027E /* GameManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +255,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +312,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -275,11 +333,11 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Labyrinth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +362,11 @@
 				DEVELOPMENT_TEAM = 9NYCJV4J3K;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Labyrinth/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
